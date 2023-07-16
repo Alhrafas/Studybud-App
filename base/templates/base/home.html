@@ -30,38 +30,7 @@
         </div>
       </div>
 
-      <div class="roomList">
-        <div class="profile">
-          <div class="profile__avatar">
-            <div class="avatar avatar--large active">
-              <img src="https://randomuser.me/api/portraits/men/11.jpg" />
-            </div>
-          </div>
-          <div class="profile__info">
-            <h3>{{user.username}}</h3>
-            <p>@{{user.username}}</p>
-            <a href="edit-user.html" class="btn btn--main btn--pill">Edit Profile</a>
-          </div>
-          <div class="profile__about">
-            <h3>About</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo tenetur
-              facilis sunt nemo debitis quisquam hic atque aut? Ducimus alias placeat optio
-              accusamus repudiandae quis ab ex exercitationem rem?
-            </p>
-          </div>
-        </div>
-
-        <div class="roomList__header">
-          <div>
-            <h2>Study Rooms Hosted by dennis_ivy</a>
-            </h2>
-          </div>
-        </div>
-          
-      </div>
-
-      {% comment %} <div class="roomList__header">
+      <div class="roomList__header">
         <div>
           <h2>Study Rooms</h2>
           <p>{{room_count}} Rooms available</p>
@@ -76,7 +45,7 @@
           </svg>
           Create Room
         </a>
-      </div> {% endcomment %}
+      </div>
 
       {% include 'base/feed_component.html' %}
 
