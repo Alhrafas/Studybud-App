@@ -103,7 +103,7 @@ def room(request, pk):
       #       if i['id'] == int(pk):
       #             room = i
       context = {'room': room, 'room_messages': room_messages, 'participants': participants}   
-      return render(request, 'base/Room.html', context)
+      return render(request, 'base/room.html', context)
 
 def userProfile(request, pk):
       user = User.objects.get(id=pk)
